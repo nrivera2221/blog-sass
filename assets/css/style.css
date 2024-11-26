@@ -229,18 +229,24 @@ input[type=submit] {
   display: flex;
   flex-wrap: wrap;
   width: 60%;
-  gap: 60px;
+  gap: 100px;
 }
 
 .card--third {
   width: 340px;
   height: auto;
+  padding: 50px;
+  padding-top: 0px;
 }
 
 .card__image--third {
   width: 298px;
   height: 200px;
   border-radius: 20px;
+}
+
+.card__title--secundary {
+  text-align: left;
 }
 
 /**/
