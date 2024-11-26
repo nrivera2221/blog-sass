@@ -10,7 +10,7 @@ footer {
     @include mixin.display-flex(row);
     position: relative;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     img{
         height: 70%;
         display: inline-block;

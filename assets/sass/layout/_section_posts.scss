@@ -65,7 +65,12 @@
 }
 .sus{
     border-bottom: 2px solid variable.$color-border;
-    height: 275px;
+    height: 230px;
+}
+.title--sus{
+font-size: 29px;
+padding: 0.5rem;
+text-align: center;
 }
 .div__sus{
     @include mixin.display-flex(column);
@@ -73,11 +78,11 @@
     align-items: center;
     background-color: variable.$color-fondo;
     border-radius: 20px;
-    height: 250px;
+    height: 190px;
     margin-top:25px;
     margin-bottom: 25px
 }
 .sub__input{
     @include mixin.display-flex(row);
-    margin-left: 30px;
+    margin-left: 10px;
 }

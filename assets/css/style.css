@@ -110,7 +110,7 @@ button {
 }
 
 input[type=email] {
-  width: 300px;
+  width: 280px;
   height: 40px;
   margin-top: 20px;
   border-radius: 20px;
@@ -120,7 +120,7 @@ input[type=email] {
 }
 
 input[type=submit] {
-  width: 300px;
+  width: 280px;
   height: 40px;
   margin-top: 20px;
   border-radius: 20px;
@@ -291,7 +291,7 @@ footer {
   flex-direction: row;
   position: relative;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 .footer__logo img {
   height: 70%;
@@ -386,7 +386,13 @@ footer {
 
 .sus {
   border-bottom: 2px solid #cccccc;
-  height: 275px;
+  height: 230px;
+}
+
+.title--sus {
+  font-size: 29px;
+  padding: 0.5rem;
+  text-align: center;
 }
 
 .div__sus {
@@ -396,7 +402,7 @@ footer {
   align-items: center;
   background-color: #729e2e;
   border-radius: 20px;
-  height: 250px;
+  height: 190px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -404,7 +410,7 @@ footer {
 .sub__input {
   display: flex;
   flex-direction: row;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 /**/
@@ -433,30 +439,6 @@ footer {
   height: auto;
   margin: 20px 0 20px 0;
   border-bottom: 2px solid #cccccc;
-}
-
-header .logo {
-  height: 120px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  border-bottom: 2px solid #CCCCCC;
-  text-align: left;
-  padding-left: 50px;
-}
-header .logo__img {
-  width: 60px;
-  height: 60px;
-  top: 653px;
-  left: 105px;
-  gap: 0px;
-  border-radius: 10px;
-  opacity: 0px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
-}
-header .logo__title {
-  margin-left: 10px;
-  font-weight: 700;
 }
 
 .main-login {
