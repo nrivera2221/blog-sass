@@ -23,6 +23,7 @@
 .card__image--logo{
     @include mixin.image-desing(30px,30px,50%);
     margin-right: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
 }
 .container__card--secundary{
     @include mixin.display-flex(column);
